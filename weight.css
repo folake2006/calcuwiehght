@@ -1,25 +1,31 @@
-.gen{
+/* Default styles */
+.gen {
     border: 2px solid tomato;
-    height: 100vh;
+    height: auto; /* Adjust to fit content */
     width: 70%;
     margin: auto;
-    padding: 200px;
-    font-size: 80px;
-    /* display: flex; */
-    /* justify-content: center;
+    padding: 50px;
+    font-size: 3vw; /* Adjust font size based on viewport width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-direction: column; */
 }
-.text{
-    font-size: 50px;
-    border: 2px solid black;
-}
-.radio{
-    height: 50px;
-    width: 50px;
-}
-.sub{
-    font-size: 50px;
-    padding: 5px 25px;
 
+.text {
+    font-size: 3vw;
+    border: 2px solid;
+    padding: 10px;
 }
+
+.radio {
+    height: 30px;
+    width: 30px;
+}
+
+.sub {
+    font-size: 3vw;
+    padding: 10px 25px;
+}
+
+
