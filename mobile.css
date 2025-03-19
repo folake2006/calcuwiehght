@@ -1,0 +1,29 @@
+@media (max-width: 830px) {
+    .gen{
+        border: 2px solid tomato;
+        min-height: 100vh;
+        width: fit-content;
+        /* margin: auto; */
+        padding: 20px;
+        font-size: 40px;
+        /* display: flex;
+        flex-direction: column; */
+
+    }
+    
+    .text{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .radiomargin{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .radio{
+        height: 30px;
+        width: 30px;
+    }
+
+  }
+
+  
