@@ -1,29 +1,30 @@
 /* Media Query for screens with max-width of 830px */
 @media (max-width: 830px) {
-    .gen {
-        padding: 20px;
-        font-size: 5vw; /* Adjust font size for smaller screens */
-        width: 90%; /* Allow more space on smaller screens */
-        height: auto;
-    }
     
+    nav button{
+        font-size: 16px;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+    nav{
+        width: 100%;
+    }
     .text {
-        font-size: 4vw; /* Make input text size responsive */
+        font-size: 5vw;
+        border: 2px solid;
+        padding: 10px;
     }
-
-    .radio {
-        height: 25px;
-        width: 25px;
+    .currency{
+        font-size: 20px;
     }
-
-    .sub {
-        font-size: 4vw; /* Make the button font size responsive */
-        padding: 10px 20px;
+    label{
+        font-size: 20px;
     }
-
-    /* Optional: Adjust margins for radio buttons */
-    .radiomargin {
-        margin-top: 10px;
-        margin-bottom: 10px;
+    .convert{
+        margin: 10px 0;
+    }
+    .display{
+        font-size: 30px;
     }
 }
