@@ -2,9 +2,9 @@
 @media (max-width: 830px) {
     
     nav button{
-        font-size: 16px;
+        font-size: 11px;
         font-weight: bold;
-        padding: 5px 10px;
+        padding: 5px 2px;
         border-radius: 10px;
     }
     nav{
@@ -25,6 +25,6 @@
         margin: 10px 0;
     }
     .display{
-        font-size: 30px;
+        font-size: 22px;
     }
 }
